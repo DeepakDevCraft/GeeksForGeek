@@ -24,7 +24,7 @@ int main()
     }
     max = arr[0];
 
-    for (int j = 0; j < size; j++)
+    for (int j = 1; j < size; j++)
     {
         if (arr[j] > max)
             max = arr[j];
